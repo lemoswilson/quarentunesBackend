@@ -9,6 +9,9 @@
     "tsc": "tsc"
   },
   "author": "",
+  "engines": {
+    "node": "15.0.1"
+  },
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^14.11.7",
