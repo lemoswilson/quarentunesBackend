@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node dist/src/index.js",
-    "heroku-postbuild": "tsc && rm -v -rf src"
+    "heroku-postbuild": "npm run tsc",
+    "tsc": "tsc"
   },
   "author": "",
   "license": "ISC",
