@@ -1,4 +1,4 @@
-import { Response, Request, request } from 'express'
+import { Response, Request } from 'express'
 
 import { UserModelType } from '../models/user.model'
 import ProjectModel, { defaultProject } from '../models/project.model'
